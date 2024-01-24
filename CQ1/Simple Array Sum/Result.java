@@ -1,0 +1,17 @@
+import java.util.List;
+
+class Result {
+  public static int simpleArraySum(List<Integer> ar) {
+    if (ar == null) {
+      return 0;
+    }
+    if (ar.size() == 1) {
+      return ar.get(0);
+    }
+    int sum = 0;
+    for (int num : ar) {
+      sum += num;
+    }
+    return sum;
+  }
+}
