@@ -8,9 +8,11 @@ class Result {
     for (int num : arr) {
       if (num > 0) {
         positive++;
-      } else if (num < 0) {
+      } 
+      else if (num < 0) {
         negative++;
-      } else {
+      } 
+      else {
         zero++;
       }
     }
