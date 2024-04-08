@@ -1,0 +1,8 @@
+public static List<Integer> longestCommonSubsequence(List<Integer> a, List<Integer> b) {
+  List<Integer>[][] tab = new List<Integer>()[a.size()][b.size()];
+  for (int i = 0; i < a.size(); i++) {
+    for (int j = 0; j < b.size(); j++) {
+      \\INCOMPLETE IN TIME
+    }
+  }
+}
